@@ -10,3 +10,5 @@
    3) Tableau: Title, Power BI: Use Text Box
    4) Score Card: You can add multiple scores in one card. Format > Visual > Callout > Value/Label
                                                             Format > General > Data Format > Value/Label
+   5) If Display Units are not visible, you can add FORMAT(value,"0") in calculation. It works for Score card but wasn't able to add to X axis of bar graph. Then I created new calculation without using FORMAT.
+   6) If format Date doen't work create a new column with the necessary format
