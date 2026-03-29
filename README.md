@@ -8,3 +8,5 @@
    1) Adjust the canvas size: Paint icon at the right is for formatting > Canvas Setting > Custom > 900 height, 1600 width
    2) Tableau: Tiled / Floating, Power BI: Only Floating
    3) Tableau: Title, Power BI: Use Text Box
+   4) Score Card: You can add multiple scores in one card. Format > Visual > Callout > Value/Label
+                                                            Format > General > Data Format > Value/Label
