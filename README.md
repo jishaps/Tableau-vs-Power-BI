@@ -13,3 +13,4 @@
    5) If Display Units are not visible, you can add FORMAT(value,"0") in calculation. It works for Score card but wasn't able to add to X axis of bar graph. Then I created new calculation without using FORMAT.
    6) If format Date doen't work create a new column with the necessary format. To sort this column on a visual add the original date field to tooltip. Then click on the 3 dots at the top right of the visual and sort based on this original date field.
    7) Had to create a new column for class decades (e.g.: 1980-1990 is Class of 80's) as creating new measure didn't work
+   8) By default action filter is active with all visualizations and we have to disable that if we don't want
