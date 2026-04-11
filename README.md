@@ -15,3 +15,4 @@
    7) Had to create a new column for class decades (e.g.: 1980-1990 is Class of 80's) as creating new measure didn't work
    8) By default action filter is active with all visualizations and we have to disable that if we don't want
    9) Manual Sorting is not available: Instead create a duplicate metric column and sort order column dax saying which metric is 1,2,3 etc. Then sort the duplicate metric legend with the sort order column
+   10) Tooltip - Tableau has more options
