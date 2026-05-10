@@ -18,3 +18,4 @@
    10) Tooltip - Tableau has more options
    11) If we have to show multiple measures in a sheet as a bar graph and sort, we have either unpivot (if the fields are columns) or create a new table with measure names and write a switch calculation for measure selection in the original table.
    12) Equivalent of IFNULL in Tableau is COALESCE in Power BI
+   13) Page Title is through text box, insert shape(rectangle) or card
