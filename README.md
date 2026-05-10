@@ -17,3 +17,4 @@
    9) Manual Sorting is not available: Instead create a duplicate metric column and sort order column dax saying which metric is 1,2,3 etc. Then sort the duplicate metric legend with the sort order column
    10) Tooltip - Tableau has more options
    11) If we have to show multiple measures in a sheet as a bar graph and sort, we have either unpivot (if the fields are columns) or create a new table with measure names and write a switch calculation for measure selection in the original table.
+   12) Equivalent of IFNULL in Tableau is COALESCE in Power BI
