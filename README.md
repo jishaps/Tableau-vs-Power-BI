@@ -24,3 +24,25 @@
        b) Text Box as Link
        c) Dynamic drill-through navigation (using drill-through filters)
    15) In Tableau, when you create a calculated field it becomes either a dimension or a measure. But in Power BI, we have to identify that first and create new column in the data model or create new measure(just like calculated field in Tableau)
+   16) | Tableau                      | Power BI Equivalent                            |
+| ---------------------------- | ---------------------------------------------- |
+| Relationship (logical layer) | Relationship                                   |
+| Join (physical layer)        | Merge in Power Query / SQL join before loading |
+
+# Main tradeoff
+
+| Relationships             | Merge Queries            |
+| ------------------------- | ------------------------ |
+| Tables stay separate      | Tables become one        |
+| Better for scalable BI    | Better for preprocessing |
+| Smaller model             | Larger model             |
+| Dynamic filtering         | Static flattened data    |
+| Preferred for star schema | Useful for enrichment    |
+
+# Easy rule
+### If you’re thinking:> “I need this table to filter another table”
+→ use **relationship**
+
+### If you’re thinking:> “I need these columns physically inside the same table”
+→ use **merge query**
+
