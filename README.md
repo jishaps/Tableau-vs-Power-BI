@@ -38,6 +38,7 @@
 | Smaller model             | Larger model             |
 | Dynamic filtering         | Static flattened data    |
 | Preferred for star schema | Useful for enrichment    |
+For relationship, you need to set cardinality and cross-filter direction (single or both)
 
 # Easy rule
 ### If you’re thinking:> “I need this table to filter another table”
