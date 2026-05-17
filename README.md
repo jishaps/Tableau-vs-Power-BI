@@ -31,7 +31,7 @@
 
 # Main tradeoff
 
-| Relationships             | Merge Queries            |
+| Relationships             | Merge Queries (through Power Query)           |
 | ------------------------- | ------------------------ |
 | Tables stay separate      | Tables become one        |
 | Better for scalable BI    | Better for preprocessing |
