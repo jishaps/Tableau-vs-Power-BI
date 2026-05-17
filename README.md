@@ -23,3 +23,4 @@
        a) Button Navigation: Insert → Buttons → Blank, Format>Text = On, Action = On, Type = Page navigation>Destination = Select your detail page
        b) Text Box as Link
        c) Dynamic drill-through navigation (using drill-through filters)
+   15) In Tableau, when you create a calculated field it becomes either a dimension or a measure. But in Power BI, we have to identify that first and create new column in the data model or create new measure(just like calculated field in Tableau)
