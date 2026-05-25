@@ -47,3 +47,5 @@ For relationship, you need to set cardinality and cross-filter direction (single
 ### If you’re thinking:> “I need these columns physically inside the same table”
 → use **merge query**
 
+17) Creating Date Parameter: You have to create date tables either using calendar function or using existing dim_date
+
