@@ -48,4 +48,25 @@ For relationship, you need to set cardinality and cross-filter direction (single
 → use **merge query**
 
 17) Creating Date Parameter: You have to create date tables either using calendar function or using existing dim_date
+    - Create one date parameter, change the properties to between. Adjust the calculation of Total Tickets to choose from the min and max value of the date parameter.
+    - Total Tickets = 
+      VAR StartDate =
+          MINX(
+              ALLSELECTED('Start Date Parameter'),
+              'Start Date Parameter'[Date]
+          )
+      
+      VAR EndDate =
+          MAXX(
+              ALLSELECTED('Start Date Parameter'),
+              'Start Date Parameter'[Date]
+          )
+      
+      RETURN
+      CALCULATE(
+          DISTINCTCOUNT(ticket[obj_oid]),
+          ticket[close_date] >= StartDate,
+          ticket[close_date] <= EndDate
+      )<img width="717" height="292" alt="image" src="https://github.com/user-attachments/assets/d82770a0-d109-46ba-8dba-b4d07bb8173a" />
+
 
