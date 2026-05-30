@@ -69,4 +69,11 @@ For relationship, you need to set cardinality and cross-filter direction (single
           ticket[close_date] <= EndDate
       )<img width="717" height="292" alt="image" src="https://github.com/user-attachments/assets/d82770a0-d109-46ba-8dba-b4d07bb8173a" />
 
+    18)  | Tableau | Purpose                   | Power BI Equivalent       |
+         | ------- | ------------------------- | ------------------------- |
+         | FIXED   | Ignore visual granularity | `CALCULATE` + `ALLEXCEPT` |
+         | INCLUDE | Add lower granularity     | `SUMX` + `VALUES`         |
+         | EXCLUDE | Remove one dimension      | `ALL` / `REMOVEFILTERS`   |
+
+
 
