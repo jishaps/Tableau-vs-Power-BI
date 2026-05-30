@@ -75,5 +75,15 @@ For relationship, you need to set cardinality and cross-filter direction (single
          | INCLUDE | Add lower granularity     | `SUMX` + `VALUES`         |
          | EXCLUDE | Remove one dimension      | `ALL` / `REMOVEFILTERS`   |
 
+    19)  | Tableau                  | Power BI Equivalent                  | Notes                             |
+         | ------------------------ | ------------------------------------ | --------------------------------- |
+         | Extract Filter           | Power Query filter / Dataflow filter | Applied during data load          |
+         | Data Source Filter       | Model-level filter / Power Query     | Restricts data for entire dataset |
+         | Context Filter           | DAX filter context                   | No direct “context filter button” |
+         | Dimension Filter         | Visual/Page/Report filter            | Most common filters               |
+         | Measure Filter           | Visual-level measure filter          | Similar behavior                  |
+         | Table Calculation Filter | Visual interaction / DAX             | Different implementation          |
+
+
 
 
