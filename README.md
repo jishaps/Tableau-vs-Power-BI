@@ -84,6 +84,15 @@ For relationship, you need to set cardinality and cross-filter direction (single
          | Measure Filter           | Visual-level measure filter          | Similar behavior                  |
          | Table Calculation Filter | Visual interaction / DAX             | Different implementation          |
 
+    20) { FIXED [Ticket Id] : MAX([Repair Price]) }
+        Total Repair Price =
+         SUMX(
+             VALUES(ticket[obj_oid]),
+             CALCULATE(
+                 MAX(ticket[Repair Price])
+             )
+         )
+
 
 
 
