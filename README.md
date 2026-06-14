@@ -92,8 +92,8 @@ For relationship, you need to set cardinality and cross-filter direction (single
                  MAX(ticket[Repair Price])
              )
          )
-
-    21) Sometimes we cannot achieve the calculation all using dax then we can use filter's appropriatey.
+   21) Constants: Tableau-single or double quotes, Power BI: double quotes
+   
 
 
 
