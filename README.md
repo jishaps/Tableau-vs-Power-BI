@@ -93,6 +93,8 @@ For relationship, you need to set cardinality and cross-filter direction (single
              )
          )
 
+    21) Sometimes we cannot achieve the calculation all using dax then we can use filter's appropriatey.
+
 
 
 
