@@ -101,6 +101,9 @@ CALCULATE(
         ticket[resource_oid]
     )
 )
+
+23) Top - 10 :<img width="358" height="434" alt="image" src="https://github.com/user-attachments/assets/eb89372d-897d-482b-b1e0-48a1d00cb67f" />
+
    
 
 
