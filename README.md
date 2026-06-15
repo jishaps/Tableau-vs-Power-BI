@@ -93,6 +93,14 @@ For relationship, you need to set cardinality and cross-filter direction (single
              )
          )
    21) Constants: Tableau-single or double quotes, Power BI: double quotes
+   22) Fix by Dax: Ticket left join Resource on resource_oid from ticket = obj_oid from resource. When pulling a bar chart with Resource_Label and Repair_Price where the former is from Resource table and the latter is from Ticket table, I'm getting all the labels eventhough there is no corresponding repair price. This can be fixed by DAX as follows. Repair Price by Resource = 
+CALCULATE(
+    SUM(ticket[repair_price]),
+    TREATAS(
+        VALUES(resource[obj_oid]),
+        ticket[resource_oid]
+    )
+)
    
 
 
